@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, AnchorHTMLAttributes, PropsWithChildren } from 'react'
+import type { ButtonHTMLAttributes, AnchorHTMLAttributes, PropsWithChildren } from 'react'
 import clsx from 'clsx'
 
 type ButtonVariant = 'primary' | 'secondary' | 'outline'
